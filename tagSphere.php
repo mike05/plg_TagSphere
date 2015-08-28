@@ -1,11 +1,11 @@
 <?php
 
 /**
- * plugin blankContentPlugin
- * @version 1.2
- * @package blankContentPlugin
- * @copyright Copyright (c) Jahr Firmennamen URL
- * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+ * plugin plgContentTagSphere
+ * @version 1.1
+ * @package plgContentTagSphere
+ * @copyright Copyright (c) 2015 Michael Gollner www.it-mg.net
+ * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0 GNU/GPL Version 2.0
  */
 /**
  * Platz für Informationen
