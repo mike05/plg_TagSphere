@@ -1,0 +1,81 @@
+<?xml version="1.2" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content"  method="upgrade">
+	<name>Content - TagSphere</name>
+	<author>Michael Gollner</author>
+	<creationDate>03.08.2015</creationDate>
+	<copyright>Copyright (c) 2015 by Michael Gollner</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>mobile@it-mg.net</authorEmail>
+	<authorUrl>www.it-mg.net</authorUrl>
+	<version>1.1</version>
+	<description>Creates a 3D tag sphere based on jQuery Tagcloud Plugin</description>
+	<files>
+            <filename plugin="tagSphere">tagSphere.php</filename>
+            <filename>index.html</filename>
+            <folder>js</folder>
+	</files>
+        
+        <config>
+		<fields name="params">
+ 
+			<fieldset name="basic">
+                            
+                                <field name="usejQuery" type="radio"
+					default="0"
+					description="jQuery einbinden"
+					label="jQuery einbinden"
+				>
+					<option value="0">JOFF</option>
+					<option value="1">JON</option>
+				</field>
+                            
+                            
+				<field name="width" type="text"
+					default="320"
+					description="Breite in Pixel"
+					label="Breite"
+					size="5"
+				/>
+ 
+				<field name="height" type="text"
+					default="240"
+					description="Hoehe in Pixel"
+					label="Hoehe"
+				/>
+				
+                                <field name="speed" type="text"
+					default="3"
+					description="Geschwindigkeit"
+					label="Geschwindigkeit"
+				/>
+                                
+                                 <field name="radius" type="text"
+					default="50"
+					description="Radius"
+					label="Radius"
+				/>
+                                 
+                                 <field name="fontMultiplier" type="text"
+					default="20"
+					description="Textgroese auf der Z Achse"
+					label="Font Multiplier"
+				/>
+                                
+                                <field name="fontcolor" type="color"
+					default="#000000"
+					description="Textfarbe"
+					label="Textfarbe"
+				/>
+                                
+                                <field name="bgcolor" type="color"
+					default="transparent"
+					description="Hintergrundfarbe"
+					label="Hintergrundfarbe"
+				/>	
+ 
+				
+			</fieldset>
+ 
+		</fields>
+	</config>
+</extension>
