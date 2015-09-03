@@ -1,19 +1,25 @@
-<?xml version="1.2" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" type="plugin" group="content"  method="upgrade">
 	<name>Content - TagSphere</name>
 	<author>Michael Gollner</author>
-	<creationDate>03.08.2015</creationDate>
+	<creationDate>03.09.2015</creationDate>
 	<copyright>Copyright (c) 2015 by Michael Gollner</copyright>
 	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
 	<authorEmail>mobile@it-mg.net</authorEmail>
 	<authorUrl>www.it-mg.net</authorUrl>
-	<version>1.1</version>
-	<description>Creates a 3D tag sphere based on jQuery Tagcloud Plugin</description>
+	<version>1.2</version>
+	<description>PLG_TAGSPHERE_DESC</description>
 	<files>
             <filename plugin="tagSphere">tagSphere.php</filename>
             <filename>index.html</filename>
             <folder>js</folder>
 	</files>
+        <languages folder="language">
+		<language tag="de-DE">de-DE.plg_content_tagSphere.ini</language>
+		<language tag="de-DE">de-DE.plg_content_tagSphere.sys.ini</language>
+		<language tag="en-GB">en-GB.plg_content_tagSphere.ini</language>
+		<language tag="en-GB">en-GB.plg_content_tagSphere.sys.ini</language>
+	</languages>
         
         <config>
 		<fields name="params">
@@ -22,8 +28,8 @@
                             
                                 <field name="usejQuery" type="radio"
 					default="0"
-					description="jQuery einbinden"
-					label="jQuery einbinden"
+					description="PLG_TAGSPHERE_USE_JQUERY_DESC"
+					label="PLG_TAGSPHERE_USE_JQUERY_LABEL"
 				>
 					<option value="0">JOFF</option>
 					<option value="1">JON</option>
@@ -32,45 +38,45 @@
                             
 				<field name="width" type="text"
 					default="320"
-					description="Breite in Pixel"
-					label="Breite"
+					description="PLG_TAGSPHERE_WIDTH_DESC"
+					label="PLG_TAGSPHERE_WIDTH_LABEL"
 					size="5"
 				/>
  
 				<field name="height" type="text"
 					default="240"
-					description="Hoehe in Pixel"
-					label="Hoehe"
+					description="PLG_TAGSPHERE_HEIGHT_DESC"
+					label="PLG_TAGSPHERE_HEIGHT_LABEL"
 				/>
 				
                                 <field name="speed" type="text"
 					default="3"
-					description="Geschwindigkeit"
-					label="Geschwindigkeit"
+					description="PLG_TAGSPHERE_SPEED_DESC"
+					label="PLG_TAGSPHERE_SPEED_LABEL"
 				/>
                                 
                                  <field name="radius" type="text"
 					default="50"
-					description="Radius"
-					label="Radius"
+					description="PLG_TAGSPHERE_RADIUS_DESC"
+					label="PLG_TAGSPHERE_RADIUS_LABEL"
 				/>
                                  
                                  <field name="fontMultiplier" type="text"
 					default="20"
-					description="Textgroese auf der Z Achse"
-					label="Font Multiplier"
+					description="PLG_TAGSPHERE_FONT_MULTI_DESC"
+					label="PLG_TAGSPHERE_FONT_MULTI_LABEL"
 				/>
                                 
                                 <field name="fontcolor" type="color"
 					default="#000000"
-					description="Textfarbe"
-					label="Textfarbe"
+					description="PLG_TAGSPHERE_FONT_COLOR_DESC"
+					label="PLG_TAGSPHERE_FONT_COLOR_LABEL"
 				/>
                                 
                                 <field name="bgcolor" type="color"
 					default="transparent"
-					description="Hintergrundfarbe"
-					label="Hintergrundfarbe"
+					description="PLG_TAGSPHERE_BG_COLOR_DESC"
+					label="PLG_TAGSPHERE_BG_COLOR_LABEL"
 				/>	
  
 				
