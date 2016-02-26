@@ -94,7 +94,7 @@ class plgContentTagSphere extends JPlugin {
         $output .= '<script type="text/javascript" >';
         $output .= 'var settings = {';
         $output .= 'height: ' . $this->params->get('height') .
-                ',width: ' . $this->params->get('height') .
+                ',width: ' . $this->params->get('width') .
                 ',radius: ' . $this->params->get('radius') .
                 ',speed: ' . $this->params->get('speed') .
                 ',slower: 0.9, timer: 5,fontMultiplier: ' . $this->params->get('fontMultiplier') . ',';
