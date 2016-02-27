@@ -7,7 +7,7 @@
 	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
 	<authorEmail>mobile@it-mg.net</authorEmail>
 	<authorUrl>www.it-mg.net</authorUrl>
-	<version>1.2</version>
+	<version>1.3</version>
 	<description>PLG_TAGSPHERE_DESC</description>
 	<files>
             <filename plugin="tagSphere">tagSphere.php</filename>
